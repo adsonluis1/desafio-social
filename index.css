@@ -1,0 +1,109 @@
+@charset 'UTF-8';
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html , body{
+    height: 100vh;
+    width: 100vw;
+    
+   background-color: black;
+}
+
+
+body{
+    position: relative;
+    height: 100vh;
+    background-color: green;
+    background-image: url(imagens/fundo-madeira.jpg);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.celular{
+    position: absolute;
+    height: 625px;
+    width: 311px;
+
+    
+    background-image: url(imagens/frame-iphone.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    
+}
+
+iframe{
+    position: absolute;
+    top: 80px;
+    left: 21px;
+    
+    width: 269px;
+    height: 471px;
+    
+    border-radius: 5px;
+
+}
+
+.face{
+    position: absolute;
+    left: 90%;
+    top: 30%;
+
+
+    width: 60px;
+    height: 60px;
+
+    border-radius: 50%;
+
+}
+
+.home{
+    position: absolute;
+    left: 90%;
+    top: 15%;
+
+    width: 60px;
+    height: 60px;
+
+    border-radius: 50%;
+}
+
+.github{
+    position: absolute;
+    left: 90%;
+    top: 45%;
+
+    width: 60px;
+    height: 60px;
+
+    border-radius: 50%;
+}
+
+.insta{
+    position: absolute;
+    left: 90%;
+    top: 60%;
+
+    width: 60px;
+    height: 60px;
+
+    border-radius: 50%;
+}
+
+.apps img:hover{
+    width: 70px;
+    height: 70px;
+    transition: 1s;
+    border: 3px solid white;
+
+    left: 88%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.616);
+}
